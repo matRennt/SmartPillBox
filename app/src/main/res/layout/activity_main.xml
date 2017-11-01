@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mat.smartpillbox.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="122dp"
+        android:layout_height="540dp"
+        android:layout_marginLeft="8dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="top|center_horizontal"
+        android:text="17:00"
+        android:textColorLink="@android:color/holo_green_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/button5"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="122dp"
+        android:layout_height="540dp"
+        android:layout_marginLeft="8dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="top|center_horizontal"
+        android:text="15:00"
+        android:textColorLink="@android:color/holo_green_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/button4"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="122dp"
+        android:layout_height="540dp"
+        android:layout_marginLeft="8dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="top|center_horizontal"
+        android:text="14:00"
+        android:textColorLink="@android:color/holo_green_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/button3"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="122dp"
+        android:layout_height="540dp"
+        android:layout_marginLeft="8dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="top|center_horizontal"
+        android:text="11:00"
+        android:textColorLink="@android:color/holo_green_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/button2"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="122dp"
+        android:layout_height="540dp"
+        android:layout_marginLeft="8dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="top|center_horizontal"
+        android:text="09:00"
+        android:textColorLink="@android:color/holo_green_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/button1"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="122dp"
+        android:layout_height="540dp"
+        android:layout_marginLeft="8dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="top|center_horizontal"
+        android:text="08:00"
+        android:textColorLink="@android:color/holo_green_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/button0"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <Button
+        android:id="@+id/button0"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="122dp"
+        android:layout_height="540dp"
+        android:layout_marginLeft="-23dp"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="top|center_horizontal"
+        android:text="07:00"
+        android:textColorLink="@android:color/holo_green_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <AnalogClock
+        android:id="@+id/analog_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:translationZ="1dp"
+        app:layout_constraintLeft_toRightOf="@+id/button5"
+        app:layout_constraintTop_toTopOf="@+id/button5" />
+
+</android.support.constraint.ConstraintLayout>

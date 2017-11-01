@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tabletten Box Hubertus - v1.0.2</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+</resources>
